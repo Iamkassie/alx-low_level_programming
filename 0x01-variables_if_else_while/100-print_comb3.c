@@ -25,10 +25,12 @@ int main(void)
 				{
 					break;
 				}
-				putchar(',');						putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 			i++;
-		}							e++;
+		}
+		e++;
 	}
 	putchar('\n');
 	return (0);
