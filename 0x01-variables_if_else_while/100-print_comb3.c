@@ -23,9 +23,11 @@ int main(void)
 				putchar(i);
 				if (i == 57 && e == 56)
 				{
-					break;						}							putchar(',');						putchar(' ');
+					break;
+				}							putchar(',');						putchar(' ');
 			}
-			i++;						}							e++;
+			i++;
+		}							e++;
 	}
 	putchar('\n');
 	return (0);
