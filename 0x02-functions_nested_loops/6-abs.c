@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * _abs - computes the absolute value of an integer
@@ -7,18 +7,7 @@ nclude "main.h"
  * Return: integer
  */
 
-int _abs(int n)
+int _abs(int ab)
 {
-	if (n > 0)
-	{
-		return (n);
-	}
-	else if (n < 0)
-	{
-		return (-n));
-	}
-	else
-	{
-		return (n);
-	}
+	return (ab * ((ab > 0) - (ab < 0)));
 }
