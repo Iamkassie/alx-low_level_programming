@@ -3,21 +3,23 @@
 /**
  * print_alphabet_x10 - a function that prints 10 times the alphabet, in lowercase
  *
- * Return: x10 a-z
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
-	int i; co;
+	int round = 0;
+	char letter = 'a';
 
-	co = 0;
-
-	while (co < 10)
+	while (round < 10)
 	{
-		for (i = 'a'; i <= 'z'; i++)
+		letter = 'a';
+		while (letter <= 'z')
 		{
-			_putchar(i);
+			_putchar(letter);
+			letter++;
 		}
-		co++;
 		_putchar('\n');
+
+		round++;
 	}
 }
