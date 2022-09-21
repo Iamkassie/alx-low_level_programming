@@ -4,7 +4,7 @@
 
 /**
  * main - generates keygen
- * Return: Always 0 (Success)
+ * Return: 0 Always
  */
 
 int main(void)
