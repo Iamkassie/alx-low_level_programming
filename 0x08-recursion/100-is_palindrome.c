@@ -22,9 +22,9 @@ int _strlen_recursion(char *s)
  * Return: boolena
  */
 
-int p1(char *s, int 1)
+int p1(char *s, int i)
 {
-	if (1 > 1)
+	if (i > 1)
 	{
 		return (1);
 	}
